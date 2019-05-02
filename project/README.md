@@ -2,7 +2,7 @@
 
 ## Motivation
 This project is part of my Machine Learning course's project which training a classification model to predict a country of origin from a person's name.
-Learning many Unix tools is very useful and powerful in terms of doing text-processing. It make data preprocessing such as web scraping, data cleaning, data transformation simpler.
+Learning many Unix tools is very useful and powerful in terms of doing text-processing. It makes data preprocessing such as web scraping, data cleaning, data transformation simpler.
 
 ## What it does
 **This project functionalities are:**
@@ -13,8 +13,8 @@ Learning many Unix tools is very useful and powerful in terms of doing text-proc
 5. For the wiki page of people in America, there's links to each states' people which requires an extra step: Extract a link to each states' people wiki page 
 6. Generate a bash script that downloads all wiki pages from Step 5.
 7. Execute the bash script from Step 6.
-8. Loop through all countries and states's people's name list file to
-    * Extract fullnames and store as csv files
+8. Loop through all countries and states' people's name list file to
+    * Extract full names and store as csv files
     * Add a country name to the second column for using as labels of training data
 
 ## How to run
@@ -56,5 +56,5 @@ The following screenshot show a sample of output file that contains Thai people'
 ![alt text](https://github.com/pannapat/slu-unix-tools/blob/master/project/archive/screenshots/ss_thais_name_output.png?raw=true)
 
 ## Limitations
-- As you can see from the screenshot above, the labels of the output data are not clean country names ("List-of_Thais" instead of "Thais"). Now it uses the name from each country's page downloaded.
+- As you can see from the screenshot above, the labels of the output data are not clean country names ("List_of_Thais" instead of "Thais"). Now it uses the name from each country's page downloaded.
 - Some of the names extracted from the pages are not actually people's name but some other link in the wiki page that I cannot find the distinct pattern to get rid of those. I need to filter them out by hand before using it in the Machine Learning project.
