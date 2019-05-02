@@ -8,10 +8,10 @@ Learning many Unix tools is very useful and powerful in terms of doing text-proc
 **This project functionalities are:**
 1. Download [List of people by nationality's Wikipedia page](https://en.wikipedia.org/wiki/Lists_of_people_by_nationality)
 2. Extract a link to each wiki page that provides people's name of all countries.
-3. Generate a bash script that downloads all wiki pages from Step 2.
+3. Generate a bash script that downloads all wiki pages from Step 2. (sleep for 2 seconds after each download)
 4. Execute the bash script from Step 3.
 5. For the wiki page of people in America, there's links to each states' people which requires an extra step: Extract a link to each states' people wiki page 
-6. Generate a bash script that downloads all wiki pages from Step 5.
+6. Generate a bash script that downloads all wiki pages from Step 5. (sleep for 2 seconds after each download)
 7. Execute the bash script from Step 6.
 8. Loop through all countries and states' people's name list file to
     * Extract full names and store as csv files
@@ -47,6 +47,7 @@ $ make clean
 - ```mv```
 - ```rm```
 - ```sed```
+- ```sleep```
 - ```wget```
 
 ## Samples of output files and downloaded html files
