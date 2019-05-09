@@ -1,6 +1,6 @@
 all: extract_and_tag_labels
 
-prepare:
+prepare: clean
 	mkdir -p ./people_html_files
 	mkdir -p ./output
 
@@ -21,7 +21,7 @@ download_by_states.sh: run_download_by_country
 run_download_by_states: download_by_states.sh
 	bash $<
 
-extract_and_tag_labels:
+extract_and_tag_labels: run_download_by_states
 	bash tag_country_labels.sh
 
 clean:
