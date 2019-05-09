@@ -21,6 +21,7 @@ Learning many Unix tools is very useful and powerful in terms of doing text-proc
 ```
 $ make all
 ```
+Note that if you are using Mac: please install required Unix tools: [How?](https://www.topbug.net/blog/2013/04/14/install-and-use-gnu-command-line-tools-in-mac-os-x/)
 
 If you've run it before, you may need to clean the generated files by running the command
 ```
