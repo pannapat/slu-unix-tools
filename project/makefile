@@ -24,7 +24,7 @@ run_download_by_states: download_by_states.sh
 extract_and_tag_labels: run_download_by_states
 	bash tag_country_labels.sh
 
-combined_datset.csv:
+combined_dataset.csv:
 	awk 1 output/*csv > $@
 
 clean_combined_dataset.csv: combined_datset
